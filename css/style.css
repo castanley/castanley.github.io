@@ -530,7 +530,13 @@
 		ul li {
 			padding-left: 0.5em;
 		}
-
+		ul.column {
+			list-style: outside disc;
+   			list-style-position: inside;
+			columns: 2;
+  			-webkit-columns: 2;
+  			-moz-columns: 2;
+		}
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
